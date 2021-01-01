@@ -1,21 +1,13 @@
-# typescript discord bot
-This is a template for anyone who wants to use a discord bot in typescript
-
+# Danglebot
+The official private discord bot for [Dangle's Discord server.](https://discord.gg/gtjevkC)
 ---
 
 ```Setup```
 
 - rename `example.config.yml` to `config.yml` and add necessary data
+- install packages `npm i`
 - run script `npm start`
 - Get cool bot
-
----
-
-```Commands```
-
-- `c.pong` (PONG)
-- `c.say` (Say what you want! the bot will)
-- `c.userinfo` (get some info on a user)
 
 ---
 

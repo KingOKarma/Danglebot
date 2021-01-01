@@ -10,7 +10,7 @@ export default class UserInfoCommand extends commando.Command {
       // Creates aliases
       aliases: ['whois', 'member'],
       // This is the group the command is put in
-      group: 'group1',
+      group: 'simple',
       // This is the name of set within the group (most people keep this the same)
       memberName: 'userinfo',
       description: 'I\'ll give you some info on any user',

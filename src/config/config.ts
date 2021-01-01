@@ -6,12 +6,15 @@ import { safeDump, safeLoad } from 'js-yaml';
  * @class Config
  * @property {string} token
  * @property {string} prefix
+ * @property {string} welcomeChannelID
  * @property {string[]} owners
  */
 export default class Config {
     public readonly token: string;
 
     public readonly prefix: string;
+
+    public readonly welcomeChannelID: string;
 
     public readonly owners: string[];
 
@@ -20,6 +23,7 @@ export default class Config {
     constructor() {
       this.token = '';
       this.prefix = '';
+      this.welcomeChannelID = '';
       this.owners = [''];
     }
 
